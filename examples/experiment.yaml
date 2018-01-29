@@ -1,0 +1,9 @@
+description: resource to get static information
+resources:
+  - name: resource_static
+    generator: file:./
+    params:
+      endpoint: 
+        ip: '141.5.2.33'
+        user: 'user' 
+        key: 'key' 
