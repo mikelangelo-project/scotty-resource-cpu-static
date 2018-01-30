@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 
 def deploy(context):
   resource = context.v1.resource
-  endpoint = resource.params['endpoint']
+  endpoint = resource.params
   logger.debug('Static Resource endpoint {}'.format(endpoint))
   return endpoint
 
